@@ -17,7 +17,40 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 import plotly.figure_factory as ff
 
+#  http://scikit-learn.org/stable/modules/feature_selection.html
+sel = VarianceThreshold()
+sel.fit_transform(X)
+label = [ i for i in sel.get_support(indices = True) if i]
 
+
+# 3333 useful feature, delete correlation and zero
+ss = set([ x for x in range(769)]) # len(ss) 214
+co = np.load("corr_cols.npy")
+zero_co = np.load("zero_col.npy")
+for i in co: # load from np.save("corr_cols.npy", corr_stat)
+	if int(i[1]) in ss:
+		ss.remove(int(i[1]))
+for j in zero_co:
+	if j in ss:
+		ss.remove(j)
+feature_id = []
+for i in ss:
+	feature_id.append(i)
+np.save("feature_id_no0.npy",feature_id)
+
+
+d = np.load("data1000arr.npy") # 5w actually
+data_noid = d[:, 1:]
+newdata = np.zeros((50000,206)) # feature_id size + label
+k = 0
+for i in feature_id:
+	newdata[:,k] = data_noid[:,i]
+	k += 1
+newdata[:,205] = data_noid[:,data_noid.shape[1]-1]
+np.save("data5_205_label.npy",newdata)
+
+
+# 22222 calculate correlation
 # >>> mb = np.array([[1,0,1,2],[1,0,3,4]])
 # >>> np.where(~mb.any(axis=0))[0]
 # array([1])
@@ -67,9 +100,14 @@ for i in range(0, data_noid.shape[1]-1):
 		# # corr_cols.append([i,j])
 # print corr_stat
 np.save("corr_cols.npy", corr_stat)
-sys.exit(0)
 
-# 111111
+
+
+
+
+
+
+# 111111 get data and fillin 0 NA
 trainfile = "ecs171train.npy"
 #read training data
 train_set = np.load(trainfile)
