@@ -1,0 +1,23 @@
+<!-- Begin Base Rules -->
+<h3>One account per participant</h3>
+<p>You cannot sign up to Kaggle from multiple accounts and therefore you cannot submit from multiple accounts.</p>
+<h3>No private sharing outside teams</h3>
+<p>
+    Privately sharing code or data outside of teams is not permitted.
+    It's okay to share code if made available to all participants on the forums.
+</p>
+<h3>Team Mergers</h3>
+<p>Team mergers are not allowed in this competition.</p>
+
+<h3>Team Limits</h3>
+<p>There is no maximum team size.</p>
+<h3>Submission Limits</h3>
+<p>You may submit a maximum of 2 entries per day.</p>
+<p>You may select up to 2 final submissions for judging.</p>
+<h3>Competition Timeline</h3>
+<p>Start Date: <strong>TBA</strong></p>
+<p>Merger Deadline: <strong>None</strong></p>
+<p>Entry Deadline: <strong>None</strong></p>
+<p>End Date: <strong>2/1/2014 12:00 AM UTC</strong></p>
+<!-- End Base Rules -->
+The rules page is a bit special: it will auto-update the text based on the parameters of the competition. The rules you need to add here are any additional rules relating to dataset usage. You may also put grading information here.

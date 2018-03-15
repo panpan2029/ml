@@ -1,0 +1,446 @@
+panyuandeMBP:ECS171FinalProject Ada$ ls
+corr.py
+panyuandeMBP:ECS171FinalProject Ada$ open corr.py 
+panyuandeMBP:ECS171FinalProject Ada$ git status
+On branch yuan
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   corr.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+panyuandeMBP:ECS171FinalProject Ada$ git add corr.py 
+panyuandeMBP:ECS171FinalProject Ada$ git commit -m "small comment change"
+[yuan e3a4ce8] small comment change
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+panyuandeMBP:ECS171FinalProject Ada$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push origin yuan
+
+To choose either option permanently, see push.default in 'git help config'.
+panyuandeMBP:ECS171FinalProject Ada$ git push origin yuan
+Counting objects: 20, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (2/18)   
+^C
+panyuandeMBP:ECS171FinalProject Ada$ git status
+On branch yuan
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+panyuandeMBP:ECS171FinalProject Ada$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:master
+
+To push to the branch of the same name on the remote, use
+
+    git push origin yuan
+
+To choose either option permanently, see push.default in 'git help config'.
+panyuandeMBP:ECS171FinalProject Ada$     git push origin HEAD:master
+Counting objects: 20, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (2/18)   
+
+Compressing objects:  16% (3/18)   
+Compressing objects: 100% (18/18), done.
+Writing objects:  75% (15/20)   
+Writing objects:  85% (17/20), 31.25 MiB | 15.55 MiB/s   
+Writing objects: 100% (20/20), 239.39 MiB | 3.08 MiB/s, done.
+Total 20 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+remote: warning: File data5_205_label.npy is 78.58 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: error: Trace: 6f173ef36b79e92fd2b7de48b11a9596
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File ecs171test.npy is 291.75 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File ecs171train.npy is 262.17 MB; this exceeds GitHub's file size limit of 100.00 MB
+To https://github.com/adlasa/ECS171FinalProject.git
+ ! [remote rejected] HEAD -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/adlasa/ECS171FinalProject.git'
+panyuandeMBP:ECS171FinalProject Ada$ 
+panyuandeMBP:ECS171FinalProject Ada$ 
+panyuandeMBP:ECS171FinalProject Ada$ 
+panyuandeMBP:ECS171FinalProject Ada$ 
+panyuandeMBP:ECS171FinalProject Ada$ 
+panyuandeMBP:ECS171FinalProject Ada$ 
+panyuandeMBP:ECS171FinalProject Ada$ ls
+corr.py
+panyuandeMBP:ECS171FinalProject Ada$ ls
+corr.py
+panyuandeMBP:ECS171FinalProject Ada$ cd ..
+panyuandeMBP:repos Ada$ ls
+CPUTimer.h			py_ml_171
+ECS171FinalProject		readMe
+alg				run.bash
+con				test.cpp
+cplusplus			website
+ds				yuanFun.h
+dsexception.h			yuanHeadAll.h
+ecs171final			yuanLib.h
+google-10000-english-master
+panyuandeMBP:repos Ada$ cd ecs171final/
+panyuandeMBP:ecs171final Ada$ ls
+corr.py
+panyuandeMBP:ecs171final Ada$ ls
+panyuandeMBP:ecs171final Ada$ cd ..
+panyuandeMBP:.Trash Ada$ ls
+ECS171FinalProject	ecs171final
+data5_205_label.npy	mid.csv
+panyuandeMBP:.Trash Ada$ pwd
+/Users/Ada/.Trash
+panyuandeMBP:.Trash Ada$ cd ..
+panyuandeMBP:~ Ada$ ls
+360云盘				PanYuan1252017TaxDocs.pdf
+Applications			Pictures
+Desktop				Public
+Documents			practice.l
+Downloads			prjjava
+Library				prjpython
+Movies				repos
+Music
+panyuandeMBP:~ Ada$ cd repos/
+panyuandeMBP:repos Ada$ git clone https://github.com/adlasa/ECS171FinalProject.git
+Cloning into 'ECS171FinalProject'...
+remote: Counting objects: 21, done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 21 (delta 3), reused 18 (delta 3), pack-reused 0
+Unpacking objects: 100% (21/21), done.
+panyuandeMBP:repos Ada$ cd ECS171FinalProject/
+panyuandeMBP:ECS171FinalProject Ada$ ls
+panyuandeMBP:ECS171FinalProject Ada$ get branch
+-bash: get: command not found
+panyuandeMBP:ECS171FinalProject Ada$ git branch
+* master
+panyuandeMBP:ECS171FinalProject Ada$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/ashkan
+  remotes/origin/hooman
+  remotes/origin/master
+  remotes/origin/sasha
+panyuandeMBP:ECS171FinalProject Ada$ ls
+panyuandeMBP:ECS171FinalProject Ada$ cp ~/
+.CFUserTextEncoding        .subversion/
+.DS_Store                  .swipl-dir-history/
+.ShadowsocksX/             .tooling/
+.Trash/                    .viminfo
+.atom/                     .wacom/
+.bash_history              .wget-hsts
+.bash_profile              .yunpan/
+.bash_sessions/            360云盘/
+.cache/                    Applications/
+.config/                   Desktop/
+.eclipse/                  Documents/
+.gitconfig                 Downloads/
+.idlerc/                   Library/
+.jupyter/                  Movies/
+.keras/                    Music/
+.lesshst                   PanYuan1252017TaxDocs.pdf
+.matlab/                   Pictures/
+.matplotlib/               Public/
+.octave_hist               practice.l
+.oracle_jre_usage/         prjjava/
+.plotly/                   prjpython/
+.ssh/                      repos/
+panyuandeMBP:ECS171FinalProject Ada$ cp ~/repos/
+.DS_Store                    google-10000-english-master/
+CPUTimer.h                   py_ml_171/
+ECS171FinalProject/          readMe
+alg/                         run.bash
+con                          test.cpp
+corr.py                      website/
+cplusplus/                   yuanFun.h
+ds/                          yuanHeadAll.h
+dsexception.h                yuanLib.h
+panyuandeMBP:ECS171FinalProject Ada$ cp ~/repos/co
+con      corr.py  
+panyuandeMBP:ECS171FinalProject Ada$ 
+panyuandeMBP:ECS171FinalProject Ada$ ls
+panyuandeMBP:ECS171FinalProject Ada$ git branch
+* master
+panyuandeMBP:ECS171FinalProject Ada$ git checkout -a
+error: unknown switch `a'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -q, --quiet           suppress progress reporting
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --detach              detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    --orphan <new-branch>
+                          new unparented branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -f, --force           force checkout (throw away local modifications)
+    -m, --merge           perform a 3-way merge with the new branch
+    --overwrite-ignore    update ignored files (default)
+    --conflict <style>    conflict style (merge or diff3)
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+
+panyuandeMBP:ECS171FinalProject Ada$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/ashkan
+  remotes/origin/hooman
+  remotes/origin/master
+  remotes/origin/sasha
+panyuandeMBP:ECS171FinalProject Ada$ git checkout -b yuan
+Switched to a new branch 'yuan'
+panyuandeMBP:ECS171FinalProject Ada$ ls
+panyuandeMBP:ECS171FinalProject Ada$ git branch
+  master
+* yuan
+panyuandeMBP:ECS171FinalProject Ada$ cp ~/repos/corr.py .
+panyuandeMBP:ECS171FinalProject Ada$ ls
+corr.py
+panyuandeMBP:ECS171FinalProject Ada$ git status
+On branch yuan
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	corr.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+panyuandeMBP:ECS171FinalProject Ada$ git add corr.py 
+panyuandeMBP:ECS171FinalProject Ada$ git commit -m "initial commit"
+[yuan baeebb4] initial commit
+ 1 file changed, 123 insertions(+)
+ create mode 100644 corr.py
+panyuandeMBP:ECS171FinalProject Ada$ git push
+fatal: The current branch yuan has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin yuan
+
+panyuandeMBP:ECS171FinalProject Ada$     git push --set-upstream origin yuan
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.73 KiB | 1.73 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/adlasa/ECS171FinalProject.git
+ * [new branch]      yuan -> yuan
+Branch 'yuan' set up to track remote branch 'yuan' from 'origin'.
+panyuandeMBP:ECS171FinalProject Ada$ git branch
+  master
+* yuan
+panyuandeMBP:ECS171FinalProject Ada$ git status
+On branch yuan
+Your branch is up to date with 'origin/yuan'.
+
+nothing to commit, working tree clean
+panyuandeMBP:ECS171FinalProject Ada$ git branch
+  master
+* yuan
+panyuandeMBP:ECS171FinalProject Ada$ git branch -a
+  master
+* yuan
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/ashkan
+  remotes/origin/hooman
+  remotes/origin/master
+  remotes/origin/sasha
+  remotes/origin/yuan
+panyuandeMBP:ECS171FinalProject Ada$ git checkout aashkan
+error: pathspec 'aashkan' did not match any file(s) known to git.
+panyuandeMBP:ECS171FinalProject Ada$ git checkout ashkan
+Branch 'ashkan' set up to track remote branch 'ashkan' from 'origin'.
+Switched to a new branch 'ashkan'
+panyuandeMBP:ECS171FinalProject Ada$ git branch 
+* ashkan
+  master
+  yuan
+panyuandeMBP:ECS171FinalProject Ada$ ls
+ECS171 Project.ipynb
+panyuandeMBP:ECS171FinalProject Ada$ junpyter ECS171\ Project.ipynb 
+-bash: junpyter: command not found
+panyuandeMBP:ECS171FinalProject Ada$ jupyter ECS171\ Project.ipynb 
+Error executing Jupyter command 'ECS171 Project.ipynb': [Errno 2] No such file or directory
+panyuandeMBP:ECS171FinalProject Ada$ jupyter notebook 
+[I 17:06:03.986 NotebookApp] Serving notebooks from local directory: /Users/Ada/repos/ECS171FinalProject
+[I 17:06:03.986 NotebookApp] 0 active kernels
+[I 17:06:03.986 NotebookApp] The Jupyter Notebook is running at:
+[I 17:06:03.986 NotebookApp] http://localhost:8888/?token=099f8799c0e5c43fb9387285c49ff3a7a8da939f24841380
+[I 17:06:03.986 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:06:03.987 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=099f8799c0e5c43fb9387285c49ff3a7a8da939f24841380
+[I 17:06:05.020 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 17:06:08.481 NotebookApp] Writing notebook-signing key to /Users/Ada/Library/Jupyter/notebook_secret
+[W 17:06:08.485 NotebookApp] Notebook ECS171 Project.ipynb is not trusted
+[I 17:06:09.062 NotebookApp] Kernel started: 9b488a7d-b0dc-4e2a-91c8-df8962c2234a
+[I 17:06:10.905 NotebookApp] Adapting to protocol v5.1 for kernel 9b488a7d-b0dc-4e2a-91c8-df8962c2234a
+^C[I 17:09:36.058 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/Ada/repos/ECS171FinalProject
+1 active kernel
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=099f8799c0e5c43fb9387285c49ff3a7a8da939f24841380
+Shutdown this notebook server (y/[n])? ^C[C 17:09:36.221 NotebookApp] received signal 2, stopping
+[I 17:09:36.223 NotebookApp] Shutting down 1 kernel
+[I 17:09:36.528 NotebookApp] Kernel shutdown: 9b488a7d-b0dc-4e2a-91c8-df8962c2234a
+panyuandeMBP:ECS171FinalProject Ada$ ls
+ECS171 Project.ipynb
+panyuandeMBP:ECS171FinalProject Ada$ git branch -a
+* ashkan
+  master
+  yuan
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/ashkan
+  remotes/origin/hooman
+  remotes/origin/master
+  remotes/origin/sasha
+  remotes/origin/yuan
+panyuandeMBP:ECS171FinalProject Ada$ git checkout sasha
+Branch 'sasha' set up to track remote branch 'sasha' from 'origin'.
+Switched to a new branch 'sasha'
+panyuandeMBP:ECS171FinalProject Ada$ git branch sasha
+fatal: A branch named 'sasha' already exists.
+panyuandeMBP:ECS171FinalProject Ada$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/adlasa/ECS171FinalProject
+   5b0ef33..e89d282  ashkan     -> origin/ashkan
+Already up to date.
+panyuandeMBP:ECS171FinalProject Ada$ ls
+final.py
+panyuandeMBP:ECS171FinalProject Ada$ git branch -a
+  ashkan
+  master
+* sasha
+  yuan
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/ashkan
+  remotes/origin/hooman
+  remotes/origin/master
+  remotes/origin/sasha
+  remotes/origin/yuan
+panyuandeMBP:ECS171FinalProject Ada$ git branch ashkan
+fatal: A branch named 'ashkan' already exists.
+panyuandeMBP:ECS171FinalProject Ada$ git checkout ashkan
+Switched to branch 'ashkan'
+Your branch is behind 'origin/ashkan' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+panyuandeMBP:ECS171FinalProject Ada$ git pull
+Updating 5b0ef33..e89d282
+Fast-forward
+ ECS171 Project.ipynb | 105 +++++++++++++++++++++++++++++++++++++++++++++------
+ 1 file changed, 94 insertions(+), 11 deletions(-)
+panyuandeMBP:ECS171FinalProject Ada$ jupyter notebook 
+[I 17:25:43.631 NotebookApp] Serving notebooks from local directory: /Users/Ada/repos/ECS171FinalProject
+[I 17:25:43.631 NotebookApp] 0 active kernels
+[I 17:25:43.631 NotebookApp] The Jupyter Notebook is running at:
+[I 17:25:43.631 NotebookApp] http://localhost:8888/?token=b0480d14e0194c5e325e5f438fc05fb526f969465dec7f60
+[I 17:25:43.632 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:25:43.634 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b0480d14e0194c5e325e5f438fc05fb526f969465dec7f60
+[I 17:25:44.640 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[W 17:25:47.175 NotebookApp] Notebook ECS171 Project.ipynb is not trusted
+[W 17:25:47.787 NotebookApp] Notebook ECS171 Project.ipynb is not trusted
+[I 17:25:48.507 NotebookApp] Kernel started: 99d2ea26-609f-4166-b7f8-073fe9faf0bf
+[I 17:25:50.591 NotebookApp] Adapting to protocol v5.1 for kernel 99d2ea26-609f-4166-b7f8-073fe9faf0bf
+ls
+^C[I 17:51:01.312 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/Ada/repos/ECS171FinalProject
+1 active kernel
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=b0480d14e0194c5e325e5f438fc05fb526f969465dec7f60
+Shutdown this notebook server (y/[n])? ^C[C 17:51:01.439 NotebookApp] received signal 2, stopping
+[I 17:51:01.442 NotebookApp] Shutting down 1 kernel
+[I 17:51:01.750 NotebookApp] Kernel shutdown: 99d2ea26-609f-4166-b7f8-073fe9faf0bf
+panyuandeMBP:ECS171FinalProject Ada$ ls
+ECS171 Project.ipynb
+panyuandeMBP:ECS171FinalProject Ada$ python 
+Python 2.7.10 (default, Jul 15 2017, 17:16:57) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> a = np.array([[1,1,2],[1,1,3])
+  File "<stdin>", line 1
+    a = np.array([[1,1,2],[1,1,3])
+                                 ^
+SyntaxError: invalid syntax
+>>> a = np.array([[1,1,2],[1,1,3]])
+>>> a
+array([[1, 1, 2],
+       [1, 1, 3]])
+>>> np.unique(a, axis = 1)
+array([[1, 2],
+       [1, 3]])
+>>> np.unique(a, axis = 0)
+array([[1, 1, 2],
+       [1, 1, 3]])
+>>> np.unique(a, axis = 2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/Ada/Library/Python/2.7/lib/python/site-packages/numpy/lib/arraysetops.py", line 212, in unique
+    raise ValueError('Invalid axis kwarg specified for unique')
+ValueError: Invalid axis kwarg specified for unique
+>>> np.unique(a, axis = 1)
+array([[1, 2],
+       [1, 3]])
+>>> u, indices = np.unique(a, return_index=True)
+>>> u
+array([1, 2, 3])
+>>> indices
+array([0, 2, 5])
+>>> u, indices = np.unique(a,axis = 1, return_index=True)
+>>> u
+array([[1, 2],
+       [1, 3]])
+>>> indices
+array([0, 2])
+>>> a.shape
+(2, 3)
+>>> a
+array([[1, 1, 2],
+       [1, 1, 3]])
+>>> a = np.array([[1,1,2],[1,1,3],[1,1,4]])
+>>> u, indices = np.unique(a,axis = 1, return_index=True)
+>>> u
+array([[1, 2],
+       [1, 3],
+       [1, 4]])
+>>> indices
+array([0, 2])
+>>> quit()
+panyuandeMBP:ECS171FinalProject Ada$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
+
